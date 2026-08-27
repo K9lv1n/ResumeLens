@@ -1,0 +1,26 @@
+Machine Learning Engineer Intern
+
+We are looking for a Machine Learning Engineer Intern to join our AI engineering team.
+
+Responsibilities:
+- Develop and evaluate machine learning models.
+- Build Python-based data and ML pipelines.
+- Develop APIs for machine learning services.
+- Containerize applications using Docker.
+- Deploy machine learning services to cloud environments.
+- Collaborate with engineers and communicate technical findings.
+- Participate in CI/CD and software engineering workflows.
+
+Requirements:
+- Strong Python programming skills.
+- Experience with machine learning frameworks such as PyTorch, TensorFlow, or Scikit-learn.
+- Experience building APIs.
+- Familiarity with Docker.
+- Familiarity with Git and version control.
+- Knowledge of cloud platforms such as AWS, Azure, or Google Cloud.
+- Good communication and teamwork skills.
+
+Preferred:
+- Experience with Kubernetes.
+- Experience with CI/CD.
+- Experience with ML deployment or MLOps.
