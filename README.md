@@ -1,6 +1,6 @@
-# ResumeLLM
+# ResumeLens
 
-ResumeLLM is a local AI-powered resume review system that compares a PDF resume against a target job description and provides evidence-based suggestions for improving the application.
+ResumeLens is a local AI-powered resume review system that compares a PDF resume against a target job description and provides evidence-based suggestions for improving the application.
 
 ## Features
 
@@ -35,3 +35,4 @@ Job Description
 Qwen3.5-4B
     ↓
 Resume Review
+```
