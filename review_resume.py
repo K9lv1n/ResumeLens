@@ -10,7 +10,7 @@ from transformers import (
 from resume_parser import extract_pdf_text
 
 
-MODEL_NAME = "Qwen/Qwen3.5-4B"
+MODEL_NAME = "Qwen/Qwen3.5-9B"
 
 RESUME_PATH = Path("inputs/resume.pdf")
 JOB_PATH = Path("inputs/job_description.txt")
@@ -51,7 +51,7 @@ def load_model():
         bnb_4bit_use_double_quant=True,
     )
 
-    print("Loading Qwen3.5-4B...")
+    print("Loading Qwen3.5-9B...")
 
     model = AutoModelForMultimodalLM.from_pretrained(
         MODEL_NAME,

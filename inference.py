@@ -7,7 +7,12 @@ from transformers import (
 )
 
 
-MODEL_NAME = "Qwen/Qwen3.5-4B"
+MODEL_NAME = "Qwen/Qwen3.5-9B"
+
+MODELS = {
+    "fast": "Qwen/Qwen3.5-4B",
+    "quality": "Qwen/Qwen3.5-9B",
+}
 
 
 def main():
@@ -26,7 +31,7 @@ def main():
         bnb_4bit_use_double_quant=True,
     )
 
-    print("Loading Qwen3.5-4B...")
+    print("Loading Qwen3.5-9B...")
 
     model = AutoModelForMultimodalLM.from_pretrained(
         MODEL_NAME,
